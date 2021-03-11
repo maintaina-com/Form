@@ -42,6 +42,10 @@
     "autoload": {
         "classmap": [
             "lib/"
-        ]
-    }
+        ],
+        "psr-4": {
+            "Horde\\Form\\": "/src"
+        }
+    },
+    "minimum-stability": "dev"
 }
